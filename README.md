@@ -33,3 +33,112 @@ This project demonstrates how to build a cricket-themed chatbot using LangChain 
 - LangChain (and its dependencies)
 
 - NVIDIA AI model access (requires API keys)
+
+## Setup
+
+1\. Clone the repository:
+
+```bash
+
+git clone https://github.com/yourusername/cricket-chatbot.git
+
+cd cricket-chatbot
+
+```
+
+2\. Install the required packages:
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+3\. Set up environment variables for NVIDIA and Cohere API keys:
+
+```bash
+
+export NVIDIA_API_KEY=your_nvidia_api_key_here
+
+export COHERE_API_KEY=your_cohere_api_key_here
+
+```
+
+## Running the Application
+
+To start the FastAPI server, run:
+
+```bash
+
+uvicorn cricket_bot_api:app --reload
+
+```
+
+This will start the server at `http://localhost:8000`. You can interact with the chatbot through the `/chat` endpoint by sending POST requests with JSON payloads containing the user's question.
+
+Example request body:
+
+```json
+
+{
+
+  "text": "Who won the last Cricket World Cup?"
+
+}
+
+```
+
+# Setting Up a ReactJS Frontend for the Cricket Chatbot Project
+
+To complement the backend capabilities of the Cricket Chatbot project, a ReactJS frontend can be developed to provide a user-friendly interface for interacting with the chatbot. This guide outlines the steps to set up the ReactJS frontend, assuming you have Node.js and npm installed on your system. It also assumes that the FastAPI server is running on `http://localhost:8000`.
+
+## Frontend User Interface
+
+The frontend UI will serve as the primary interface through which users can interact with the cricket chatbot. It will display the conversation history and provide an input field for users to type their questions.
+
+## Step 1: Clone the Repository
+
+First, clone the repository containing the frontend code to your local machine. Open a terminal and execute the following commands:
+
+```bash
+
+git clone https://github.com/AbhiRam162105/Cricket_Bot.git
+
+cd Cricket_Bot/frontend
+
+```
+
+This will download the project files and navigate into the `frontend` directory.
+
+## Step 2: Install Dependencies
+
+Before starting the project, it's necessary to install all dependencies listed in the `package.json` file. Run the following command in the terminal:
+
+```bash
+
+nvm install 16.13.2
+
+npm install
+
+```
+
+This command ensures that Node.js version `16.13.2` is installed and then reads the `package.json` file to install all the required packages.
+
+## Step 3: Start the Development Server
+
+Once the installation is complete, you can start the development server to see the application in action. Execute the following command:
+
+```bash
+
+npm start
+
+```
+
+This command compiles the React app and starts a development server. By default, the app will be served at `http://localhost:3000`. You can now open this URL in your web browser to interact with the cricket chatbot.
+
+## Note
+
+Ensure that the FastAPI backend server is running on `http://localhost:8000` as the ReactJS frontend communicates with this backend to fetch chatbot responses. If the backend server is hosted elsewhere, you may need to update the API endpoint URLs in the frontend code accordingly.
+
+By following these steps, you will have successfully set up a ReactJS frontend for the Cricket Chatbot project, providing a seamless user experience for interacting with the chatbot.
+
