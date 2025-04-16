@@ -1,8 +1,6 @@
 # Cricket Chatbot with LangChain and FastAPI
 
-This project demonstrates how to build a cricket-themed chatbot using LangChain for natural language understanding and FastAPI for creating a web API. The chatbot can answer questions related to cricket by processing and analyzing documents from Wikipedia, generating embeddings, and utilizing NVIDIA AI models for generating responses. For more elaborate explanation of the code refer to my story on Medium
--  https://medium.com/@abhiyanampally/simplest-introduction-to-rag-and-langchain-building-a-cricket-chatbot-part-i-0b98a658ee6f
--  https://medium.com/@abhiyanampally/simplest-introduction-to-rag-and-langchain-building-a-cricket-chatbot-part-2-308b29ce1436
+This project demonstrates how to build a cricket-themed chatbot using LangChain for natural language understanding and FastAPI for creating a web API. The chatbot can answer questions related to cricket by processing and analyzing documents from Wikipedia, generating embeddings, and utilizing NVIDIA AI models for generating responses.
 
 
 ![Cricket Chatbot UI](https://github.com/user-attachments/assets/1c3b527c-755f-4c36-9730-729ba51dbcc3 "Cricket Chatbot User Interface")
