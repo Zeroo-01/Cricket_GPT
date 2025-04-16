@@ -40,7 +40,7 @@ This project demonstrates how to build a cricket-themed chatbot using LangChain 
 
 ```bash
 
-git clone https://github.com/yourusername/cricket-chatbot.git
+git clone https://github.com/Zeroo-01/Cricket_GPT.git
 
 cd cricket-chatbot
 
@@ -102,7 +102,7 @@ First, clone the repository containing the frontend code to your local machine. 
 
 ```bash
 
-git clone https://github.com/AbhiRam162105/Cricket_Bot.git
+git clone https://github.com/Zeroo-01/Cricket_Bot.git
 
 cd Cricket_Bot/frontend
 
